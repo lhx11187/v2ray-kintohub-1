@@ -1,6 +1,6 @@
 FROM alpine
 
-ENV CONFIG=https://raw.githubusercontent.com/kits18/v2fly-cf/kintohub/config.json
+ENV CONFIG=https://raw.githubusercontent.com/lhx11187/v2ray-kintohub-1/config.json
 
 RUN apk update && apk --no-cache add ca-certificates unzip && \
     wget -c https://github.com/v2fly/v2ray-core/releases/download/v4.30.0/v2ray-linux-64.zip && \
